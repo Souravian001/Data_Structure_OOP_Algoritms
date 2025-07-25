@@ -1,3 +1,4 @@
+//problem: perform a basic linear search operation 
 public class linear_search{
  public static int linarsearch(int array[], int key){
     for(int i=0;i<array.length;i++){

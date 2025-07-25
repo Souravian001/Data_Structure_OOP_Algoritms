@@ -5,7 +5,7 @@ public class linear_search{
         if(array[i]== key){
             return i;// return the index at which the element is present
         }
-        //return -1;// if desired element is not found
+        
     }       
      return -1;// if desired element is not found
 

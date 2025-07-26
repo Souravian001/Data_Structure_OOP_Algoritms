@@ -14,7 +14,7 @@ It also includes comprehensive coverage of **Object-Oriented Programming (OOP)**
   - Polymorphism
   - Abstraction
   - Encapsulation
-- ✅ Ideal for students, job seekers, and Java beginners
+- ✅ Ideal for students, job seekers, and Java beginners,learners
 
 ---
 

@@ -12,6 +12,6 @@ public class largest{
     public static void main(String[] args) {
         int num[]= {4,400,51,20,21,26,78,45,235};
         System.out.println("the largest element is:"+ largest_element(num));
-        
+        // similarly for finding  smallest element in array use Infinit.MAX_VALUE as small variable in replacement of large variable and (small> a[i])
     } 
-}
+} 

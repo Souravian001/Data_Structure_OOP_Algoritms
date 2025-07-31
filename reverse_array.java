@@ -1,3 +1,4 @@
+// wap to reverse an array
 public class reverse_array{
 public static void reverse(int arr[]){
     int first =0 , last = arr.length-1;

@@ -1,4 +1,5 @@
 // wap in java to return sum of all posible subarray and return the max sum of subarray in a given array e.g;[2,4,5]------>2,6,11,4,9....max=11
+// brute force approach
 public class max_sum_subarray{
     public static void mx_sum_Subarray(int arr[]){ 
         // int sum=0;

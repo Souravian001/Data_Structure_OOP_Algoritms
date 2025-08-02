@@ -3,9 +3,9 @@ public class sub_array_print{
 
 public static void subarray(int numb[]){
     for (int i = 0; i < numb.length; i++) {
-        int start = i; // outer loop for start element of subarray like 2 or 4 etc
+        int start = i; // outer loop for getting  starting element e.g; start=0 means 0th index element
         for (int j = i; j < numb.length; j++){
-             int end = j; // for the last element upto which subarray will bee printed
+             int end = j; // for getting index of the last element upto which subarray will bee printed
             for (int k = start; k <= end; k++) { // from start to end element , it will print the subarray
                 System.out.print(numb[k]+" "); // print the subarrays ,then update j and iterate the subarray
             }

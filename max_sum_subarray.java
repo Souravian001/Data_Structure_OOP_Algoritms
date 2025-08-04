@@ -7,7 +7,7 @@ public class max_sum_subarray{
         for (int i = 0; i <arr.length; i++) {
 
             int start = i; // for getting the first element of subarray
-            for (int j = i; j < arr.length; j++){ // for getting the last element of subarray upto which sum will be calculated
+            for (int j = i; j < arr.length; j++){  // for getting the last element of subarray upto which sum will be calculated
                 int end = j;
                 int sum =0;   // for each next subarray the sum will be 0 to properly calculate the sum
                 for(int k=start; k<=end;k++){//for printing the element of the subarray between start and end element
@@ -25,7 +25,7 @@ public class max_sum_subarray{
         }
 
     public static void main(String[] args) {
-        int arr[]={-2,1,-3,4,-1,2,1,-5,4};
+        int arr []={1,5,-1,-9,-8,-19,-52,100,541,587};
         mx_sum_Subarray(arr);
     }
 }

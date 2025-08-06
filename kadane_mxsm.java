@@ -1,6 +1,6 @@
 //wap to find max sum of subarray of a given array using KADANe's algorithm...it will use only single loop for solving means O(n) time complexity it will produce
 // it is the most optimized appoach for finding the max sum of subarray of a given array
-// negetive values can not be taken as the result of addition by this algo noramlly we can use another logic for a array having full -ve elements
+// negetive values can not be taken as the result of addition by this algo noramlly because the sum will reset to 0 when there is a -ve sum value, we will just do a minor change in this algo  for a array having full -ve elements
 public class kadane_mxsm{
 
     public static void kadane_max(int numb[]){

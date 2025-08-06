@@ -17,7 +17,7 @@ public class kadane_mxsm{
         System.out.println("the max sum of subarray is: "+ max);
     }
     public static void main(String[] args) {
-        int numb []={1,5,-1,-9,-8,-19,-52,100,541,587};
+        int numb []={1,5,-1,-9,-8,-19,-52,100,458,-9,874,124,541,587};
         kadane_max(numb);
     }
 }

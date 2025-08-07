@@ -19,7 +19,7 @@ public static int binarysearch(int num[], int key){
 }
 
     public static void main(String[] args) {
-        int num[] ={2,3,5,8,9,10,11,12,15,17,19,21,25}; // sorted array
+        int num[] ={2,3,5,8,9,10,11,12,15,17,19,21,22,23,24,25}; // sorted array
         int key = 10;
         System.out.println("the element is found at index : "+ binarysearch(num,key));
     }

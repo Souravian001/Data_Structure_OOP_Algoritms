@@ -11,7 +11,7 @@ public class kadane_mxsm{
                 if(sum<0){   // it will not take any negetive value and if the addition between neg and pos value is greater than 0,then it will store it
                     sum=0;
                 }
-                max= Math.max(max, sum);;
+                max= Math.max(max, sum);
       
         }
         System.out.println("the max sum of subarray is: "+ max);
